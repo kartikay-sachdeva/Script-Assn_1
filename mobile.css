@@ -1,0 +1,87 @@
+@media (max-width: 480px) {
+    /* Styles for the body */
+    body {
+        padding: 5px; /* Reduce padding for smaller screens */
+    }
+
+    /* Adjust navigation bar */
+    nav {
+        flex-direction: column; /* Stack navigation items vertically */
+        height: auto; /* Allow height to adjust automatically */
+        padding: 10px 0; /* Add vertical padding */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack list items vertically */
+        align-items: center; /* Center align list items */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Reduce margin for list items */
+    }
+
+    /* Adjust font sizes for sections */
+    .left {
+        font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+    .leftsection {
+        font-size: 1.8rem; /* Smaller font size for mobile */
+    }
+
+    .first_section {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center align items */
+        margin: 40px 0; /* Reduce margin */
+    }
+
+    .first_section > div {
+        width: 90%; /* Use almost full width */
+        margin-bottom: 15px; /* Add spacing between sections */
+    }
+
+    /* Style adjustments for images */
+    .rightsection img {
+        width: 100%; /* Make images full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Second section adjustments */
+    .second_section {
+        padding: 20px; /* Reduce padding */
+    }
+
+    .project {
+        margin: 20px; /* Reduce margins for better fitting */
+    }
+
+    /* Third section adjustments */
+    .third_section {
+        margin: 20px; /* Reduce margins for better fitting */
+    }
+
+    /* Form adjustments */
+    form {
+        width: 100%; /* Full width for forms */
+    }
+
+    .form-group textarea,
+    .form-group input {
+        font-size: 14px; /* Reduce font size */
+    }
+
+    /* Submit button adjustments */
+    .submit-button {
+        width: 100%; /* Make button full width */
+        padding: 10px; /* Adjust padding */
+    }
+    
+    /* Footer adjustments */
+    footer {
+        padding: 15px; /* Adjust footer padding */
+    }
+
+    /* Additional styles for text in footer */
+    footer a {
+        font-size: 14px; /* Adjust font size for links */
+    }
+}
